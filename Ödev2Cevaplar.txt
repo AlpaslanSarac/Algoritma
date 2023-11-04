@@ -1,0 +1,113 @@
+1. Soru
+
+#include <stdio.h>
+
+int main() {
+    float a, b;
+    
+    printf("a değerini giriniz:");
+    scanf("%f", &a);
+    printf("b değerini giriniz:");
+    scanf("%f", &b);
+    
+    printf("Toplam=%0.2f", a+b);
+    return 0;
+}
+
+
+2. Soru
+
+1- "//" Kod içerisinde çalışmayan, açıklama veya not satırı.
+2- Kod içerisinde lazım olan kütüphane veya fonksiyon dosyalarını dahil etme anlamına gelir.
+3- Fonksiyon çağırıldığında sonuç dönderen ana fonksiyon.
+4- Fonksiyonumuzun başlangıç ifadesi.
+5- Ekrana "Merhaba" çıktısını veren komuttur, "\n" bu komt ise kendinden sonraki gelecek çıktıyı bir alt satırdan başlatıor.
+6- Ekrana "Nasılsın" çıktısını veren komuttur.
+7- İseğin başarılı bir şekilde döndürülmesini sağlayan komuttur.
+8. Fonksiyonumuzun bitiş ifadesidir.
+
+
+3. Soru
+
+f. double değişken olarak kullanılazam.
+
+
+4. Soru
+
+#include <stdio.h>
+
+int main() {
+    int toplam=10;
+    printf("toplam= %d", toplam);
+
+    return 0;
+}
+
+
+5. Soru
+
+#include <stdio.h>
+
+int main() {
+    int x, y;
+    
+    printf("x değerini giriniz:");
+    scanf("%d", &x);
+    printf("y değerini giriniz:");
+    scanf("%d", &y);
+    
+    printf("Toplam=%d", x+y);
+    return 0;
+}
+
+
+
+6. Soru
+
+a,b,d şıklarındakı kotlar hatalı ifade olduğu için çalışma doğru şık c. dir.
+
+
+7. Soru
+
+a=11
+b=7
+c=2
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    a=8;
+    b=15;
+    c=a/b+b/a*2;
+    b=b/2;
+    a=a+3;
+    
+    printf("a=%d\n", a);
+    printf("b=%d\n", b);
+    printf("c=%d", c);
+    return 0;
+}
+
+
+8. Soru
+
+-27.38
+  -28.4
+  25
+290
+
+#include <stdio.h>
+
+int main() {
+    int a=285;
+    double y=-27.3789;
+    printf("%6.2f\n", y);
+    printf("%7.1f\n", --y);
+    printf("%4d\n", a/11);
+    printf("%2d", a+=5);
+    return 0;
+}
+
+
+
+  
